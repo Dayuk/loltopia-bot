@@ -447,10 +447,6 @@ async def on_message(message):
         await message.channel.send(embed=embed7)
 
 
-
-app.run('NjkwNTQyMzgzMTgzNjkxODE3.XnS7tQ.Zw-0AgXIy4a3zEM-bY-FqCi9aRc')
-
-
 def warning():
     wb = Workbook()
     file = openpyxl.load_workbook("가경고목록.xlsx")
